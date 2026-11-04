@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Criar conta — UniVaga</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="auth-page">
+    <main class="auth-card">
+      <img class="auth-photo" src="foto/quarto-compartilhado-2.jpg" alt="Quarto para duas pessoas com piso de madeira e mesas de estudo" />
+      <h1>Crie sua conta.</h1>
+      <p>É rápido: preencha os campos abaixo e pronto.</p>
+      <form action="login.html" method="get">
+        <label
+          >Nome completo<input
+            name="nome"
+            required
+            placeholder="Seu nome" /></label
+        ><label
+          >E-mail<input
+            name="email"
+            type="email"
+            required
+            placeholder="voce@email.com" /></label
+        ><label
+          >Senha<input
+            name="password"
+            type="password"
+            minlength="6"
+            required
+            placeholder="Mínimo de 6 caracteres" /></label
+        ><label
+          >Como você vai usar o UniVaga?<select name="role" required>
+            <option value="">Selecione</option>
+            <option>Sou estudante</option>
+            <option>Quero anunciar um imóvel</option>
+          </select></label
+        ><button class="btn btn-primary full" type="submit">
+          Criar minha conta
+        </button>
+      </form>
+      <p class="auth-switch">Já tem conta? <a href="login.html">Entrar</a></p>
+      <a class="back-link" href="index.html">Voltar para o início</a>
+      <p class="form-note">Tela demonstrativa do projeto acadêmico.</p>
+    </main>
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
