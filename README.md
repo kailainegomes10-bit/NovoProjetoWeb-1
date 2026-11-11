@@ -5,6 +5,11 @@ Projeto Interdisciplinar do 1º semestre (Engenharia de Software I, Desenvolvime
 
 **Equipe:** Kailaine Cristina Gomes Panigalli, Tayná Winy Luiz, Lana de Almeida Gobo e André Henrique Cintra dos Santos.
 
+## Links do projeto
+
+- **Protótipo no Figma:** [Acessar o protótipo](https://www.figma.com/design/m7tNz2PRH3HL7EIBMZtVeQ/Sem-t%C3%ADtulo?node-id=57-2&p=f&t=42EKNRlTmyS7KWqj-0)
+- **Vídeo de apresentação do Projeto Integrador (YouTube):** [Assistir ao vídeo](https://www.youtube.com/watch?v=NlDrZgPE3xk)
+
 ## Como executar
 
 1. Extraia o ZIP e abra `index.html` no navegador.
