@@ -4,35 +4,19 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Início — UniVaga</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="">
     <header class="site-header">
-      <input
-        type="checkbox"
-        id="menu-check"
-        class="menu-check"
-        aria-hidden="true"
-      /><a class="brand" href="index.html" aria-label="UniVaga início"
-        ><span class="brand-mark"
-          ><img src="foto/logo.png" alt="Logo UniVaga" /></span
-      ></a>
+      <input type="checkbox" id="menu-check" class="menu-check" aria-hidden="true" /><a class="brand" href="index.html" aria-label="UniVaga início"><span class="brand-mark"><img src="foto/logo.png" alt="Logo UniVaga" /></span></a>
       <nav class="main-nav">
-        <a class="active" href="index.html">Início</a
-        ><a href="buscar.html">Encontrar moradia</a
-        ><a href="favoritos.html">Favoritos</a
-        ><a href="anunciar.html">Anunciar imóvel</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a>
+        <a class="active" href="index.html">Início</a><a href="buscar.html">Encontrar moradia</a><a href="favoritos.html">Favoritos</a><a href="anunciar.html">Anunciar imóvel</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a>
       </nav>
       <div class="header-actions">
-        <a class="text-link" href="login.html">Entrar</a
-        ><a class="btn btn-primary btn-small" href="cadastro.html"
-          >Criar conta</a
-        ><label class="menu-toggle" for="menu-check" aria-label="Abrir menu"
-          >☰</label
-        >
+        <a class="text-link" href="login.html">Entrar</a><a class="btn btn-primary btn-small" href="cadastro.html">Criar conta</a><label class="menu-toggle" for="menu-check" aria-label="Abrir menu">☰</label>
       </div>
     </header>
     <main>
@@ -45,28 +29,20 @@
             os valores antes de entrar em contato com o proprietário.
           </p>
           <form class="hero-search" action="buscar.html" method="get">
-            <label class="search-field"
-              ><input name="q" placeholder="Cidade ou bairro" /></label
-            ><label class="search-field"
-              ><select name="tipo">
+            <label class="search-field"><input name="q" placeholder="Cidade ou bairro" /></label><label class="search-field"><select name="tipo">
                 <option value="">Todos os tipos</option>
                 <option>Quarto</option>
                 <option>Kitnet</option>
                 <option>Apartamento</option>
                 <option>Casa</option>
                 <option>República</option>
-              </select></label
-            ><button class="btn btn-primary" type="submit">
+              </select></label><button class="btn btn-primary" type="submit">
               Buscar moradia →</button>
           </form>
         </div>
         <div class="hero-visual">
           <div class="hero-photo">
-            <img
-              class="main-photo"
-              src="foto/hero-estudantes.jpg"
-              alt="Estudantes conversando e tocando violão em um quarto compartilhado"
-            />
+            <img class="main-photo" src="foto/hero-estudantes.jpg" alt="Estudantes conversando e tocando violão em um quarto compartilhado" />
           </div>
           <div class="floating-note note-top">
             <span class="note-icon">✦</span>
@@ -87,27 +63,7 @@
           <a class="arrow-link" href="buscar.html">Ver todas as moradias</a>
         </div>
         <div class="type-grid">
-          <a class="type-card" href="buscar.html?tipo=Quarto"
-            ><strong>Quartos</strong
-            ><span>Para morar sozinho ou dividir com um colega.</span
-            ></a
-          ><a class="type-card" href="buscar.html?tipo=Kitnet"
-            ><strong>Kitnets</strong
-            ><span>Pequenas, práticas e só suas.</span
-            ></a
-          ><a class="type-card" href="buscar.html?tipo=Apartamento"
-            ><strong>Apartamentos</strong
-            ><span>Mais espaço e conforto para dividir.</span
-            ></a
-          ><a class="type-card" href="buscar.html?tipo=Casa"
-            ><strong>Casas</strong
-            ><span>Mais espaço para dividir com os amigos.</span
-            ></a
-          ><a class="type-card" href="buscar.html?tipo=República"
-            ><strong>Repúblicas</strong
-            ><span>Divida a casa e as contas com outros estudantes.</span
-            ></a
-          >
+          <a class="type-card" href="buscar.html?tipo=Quarto"><strong>Quartos</strong><span>Para morar sozinho ou dividir com um colega.</span></a><a class="type-card" href="buscar.html?tipo=Kitnet"><strong>Kitnets</strong><span>Pequenas, práticas e só suas.</span></a><a class="type-card" href="buscar.html?tipo=Apartamento"><strong>Apartamentos</strong><span>Mais espaço e conforto para dividir.</span></a><a class="type-card" href="buscar.html?tipo=Casa"><strong>Casas</strong><span>Mais espaço para dividir com os amigos.</span></a><a class="type-card" href="buscar.html?tipo=República"><strong>Repúblicas</strong><span>Divida a casa e as contas com outros estudantes.</span></a>
         </div>
       </section>
       <section class="featured-section">
@@ -122,10 +78,7 @@
           <div class="listing-grid">
             <article class="listing-card" data-id="imovel-1" data-tipo="Apartamento" data-preco="980">
               <div class="listing-image">
-                <img
-                  src="foto/cozinha-apartamento.jpg"
-                  alt="Apartamento iluminado"
-                /><span class="listing-tag">Apartamento</span><button type="button" class="favorite-btn" data-fav="imovel-1" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
+                <img src="foto/cozinha-apartamento.jpg" alt="Apartamento iluminado" /><span class="listing-tag">Apartamento</span><button type="button" class="favorite-btn" data-fav="imovel-1" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
               </div>
               <div class="listing-content">
                 <div class="listing-location">
@@ -135,23 +88,17 @@
                   Apartamento com piso cerâmico e cozinha
                 </h3>
                 <div class="listing-features">
-                  <span>2 quartos</span><span>1 banheiro</span
-                  ><span>58 m²</span>
+                  <span>2 quartos</span><span>1 banheiro</span><span>58 m²</span>
                 </div>
                 <div class="listing-bottom">
                   <div class="listing-price">R$ 980 / mês</div>
-                  <a class="detail-link" href="detalhes.html#imovel-1"
-                    >Ver detalhes</a
-                  >
+                  <a class="detail-link" href="detalhes.html#imovel-1">Ver detalhes</a>
                 </div>
               </div>
             </article>
             <article class="listing-card" data-id="imovel-2" data-tipo="Casa" data-preco="1250">
               <div class="listing-image">
-                <img
-                  src="foto/casa-fachada-2.jpg"
-                  alt="Casa térrea em rua tranquila"
-                /><span class="listing-tag">Casa</span><button type="button" class="favorite-btn" data-fav="imovel-2" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
+                <img src="foto/casa-fachada-2.jpg" alt="Casa térrea em rua tranquila" /><span class="listing-tag">Casa</span><button type="button" class="favorite-btn" data-fav="imovel-2" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
               </div>
               <div class="listing-content">
                 <div class="listing-location">Centro, Franca - SP</div>
@@ -159,23 +106,17 @@
                   Casa com corredor e portas de madeira
                 </h3>
                 <div class="listing-features">
-                  <span>2 quartos</span><span>1 banheiro</span
-                  ><span>70 m²</span>
+                  <span>2 quartos</span><span>1 banheiro</span><span>70 m²</span>
                 </div>
                 <div class="listing-bottom">
                   <div class="listing-price">R$ 1.250 / mês</div>
-                  <a class="detail-link" href="detalhes.html#imovel-2"
-                    >Ver detalhes</a
-                  >
+                  <a class="detail-link" href="detalhes.html#imovel-2">Ver detalhes</a>
                 </div>
               </div>
             </article>
             <article class="listing-card" data-id="imovel-3" data-tipo="Kitnet" data-preco="850">
               <div class="listing-image">
-                <img
-                  src="foto/kitnet-1.jpg"
-                  alt="Kitnet mobiliada para estudante"
-                /><span class="listing-tag">Kitnet</span><button type="button" class="favorite-btn" data-fav="imovel-3" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
+                <img src="foto/kitnet-1.jpg" alt="Kitnet mobiliada para estudante" /><span class="listing-tag">Kitnet</span><button type="button" class="favorite-btn" data-fav="imovel-3" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
               </div>
               <div class="listing-content">
                 <div class="listing-location">
@@ -185,23 +126,17 @@
                   Kitnet mobiliada com bancada e ar-condicionado
                 </h3>
                 <div class="listing-features">
-                  <span>1 quarto</span><span>1 banheiro</span
-                  ><span>32 m²</span>
+                  <span>1 quarto</span><span>1 banheiro</span><span>32 m²</span>
                 </div>
                 <div class="listing-bottom">
                   <div class="listing-price">R$ 850 / mês</div>
-                  <a class="detail-link" href="detalhes.html#imovel-3"
-                    >Ver detalhes</a
-                  >
+                  <a class="detail-link" href="detalhes.html#imovel-3">Ver detalhes</a>
                 </div>
               </div>
             </article>
             <article class="listing-card" data-id="imovel-4" data-tipo="Kitnet" data-preco="900">
               <div class="listing-image">
-                <img
-                  src="foto/kitnet-2.jpg"
-                  alt="Kitnet com espaço de estudo"
-                /><span class="listing-tag">Kitnet</span><button type="button" class="favorite-btn" data-fav="imovel-4" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
+                <img src="foto/kitnet-2.jpg" alt="Kitnet com espaço de estudo" /><span class="listing-tag">Kitnet</span><button type="button" class="favorite-btn" data-fav="imovel-4" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
               </div>
               <div class="listing-content">
                 <div class="listing-location">Centro, Franca - SP</div>
@@ -209,23 +144,17 @@
                   Kitnet com mesa de estudos e cozinha equipada
                 </h3>
                 <div class="listing-features">
-                  <span>1 quarto</span><span>1 banheiro</span
-                  ><span>28 m²</span>
+                  <span>1 quarto</span><span>1 banheiro</span><span>28 m²</span>
                 </div>
                 <div class="listing-bottom">
                   <div class="listing-price">R$ 900 / mês</div>
-                  <a class="detail-link" href="detalhes.html#imovel-4"
-                    >Ver detalhes</a
-                  >
+                  <a class="detail-link" href="detalhes.html#imovel-4">Ver detalhes</a>
                 </div>
               </div>
             </article>
             <article class="listing-card" data-id="imovel-5" data-tipo="Kitnet" data-preco="780">
               <div class="listing-image">
-                <img
-                  src="foto/kitnet-3.jpg"
-                  alt="Kitnet compacta e organizada"
-                /><span class="listing-tag">Kitnet</span><button type="button" class="favorite-btn" data-fav="imovel-5" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
+                <img src="foto/kitnet-3.jpg" alt="Kitnet compacta e organizada" /><span class="listing-tag">Kitnet</span><button type="button" class="favorite-btn" data-fav="imovel-5" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
               </div>
               <div class="listing-content">
                 <div class="listing-location">
@@ -235,23 +164,17 @@
                   Kitnet compacta com cama, armário e cozinha
                 </h3>
                 <div class="listing-features">
-                  <span>1 quarto</span><span>1 banheiro</span
-                  ><span>25 m²</span>
+                  <span>1 quarto</span><span>1 banheiro</span><span>25 m²</span>
                 </div>
                 <div class="listing-bottom">
                   <div class="listing-price">R$ 780 / mês</div>
-                  <a class="detail-link" href="detalhes.html#imovel-5"
-                    >Ver detalhes</a
-                  >
+                  <a class="detail-link" href="detalhes.html#imovel-5">Ver detalhes</a>
                 </div>
               </div>
             </article>
             <article class="listing-card" data-id="imovel-6" data-tipo="Quarto" data-preco="620">
               <div class="listing-image">
-                <img
-                  src="foto/quarto-compartilhado-1.jpg"
-                  alt="Quarto compartilhado"
-                /><span class="listing-tag">Quarto</span><button type="button" class="favorite-btn" data-fav="imovel-6" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
+                <img src="foto/quarto-compartilhado-1.jpg" alt="Quarto compartilhado" /><span class="listing-tag">Quarto</span><button type="button" class="favorite-btn" data-fav="imovel-6" aria-pressed="false" aria-label="Salvar nos favoritos"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></button>
               </div>
               <div class="listing-content">
                 <div class="listing-location">Centro, Franca - SP</div>
@@ -259,14 +182,11 @@
                   Quarto com beliche e mesa de estudos
                 </h3>
                 <div class="listing-features">
-                  <span>2 vagas</span><span>beliche</span
-                  ><span>mesa de estudos</span>
+                  <span>2 vagas</span><span>beliche</span><span>mesa de estudos</span>
                 </div>
                 <div class="listing-bottom">
                   <div class="listing-price">R$ 620 / mês</div>
-                  <a class="detail-link" href="detalhes.html#imovel-6"
-                    >Ver detalhes</a
-                  >
+                  <a class="detail-link" href="detalhes.html#imovel-6">Ver detalhes</a>
                 </div>
               </div>
             </article>
@@ -315,15 +235,10 @@
       </section>
     </main>
     <footer class="site-footer">
-      <a class="brand footer-brand" href="index.html"
-        ><span class="brand-mark"
-          ><img src="foto/logo.png" alt="Logo UniVaga" /></span
-      ></a>
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark"><img src="foto/logo.png" alt="Logo UniVaga" /></span></a>
       <p>Moradia de estudante, sem complicação.</p>
       <div class="footer-links">
-        <a href="buscar.html">Moradias</a><a href="anunciar.html">Anunciar</a
-        ><a href="sobre.html">Sobre</a
-        ><a href="contato.html">Contato</a>
+        <a href="buscar.html">Moradias</a><a href="anunciar.html">Anunciar</a><a href="sobre.html">Sobre</a><a href="contato.html">Contato</a>
       </div>
       <small>© 2026 UniVaga. Projeto de estudantes da Fatec Franca.</small>
     </footer>

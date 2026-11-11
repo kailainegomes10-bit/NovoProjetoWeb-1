@@ -1,13 +1,9 @@
-/* UniVaga — comportamento do site (JavaScript puro, sem bibliotecas)
-   Funções: favoritos salvos no navegador, busca com filtros e ordenação,
-   validação dos formulários, máscara de telefone e menu do celular. */
 (function () {
   'use strict';
 
   var CHAVE_FAVORITOS = 'univaga:favoritos';
   var CHAVE_ANUNCIOS = 'univaga:anuncios';
 
-  // Imóveis de demonstração (os mesmos exibidos na página "Encontrar moradia").
   var IMOVEIS = [
   {
     "id": "imovel-1",
@@ -151,7 +147,6 @@
   }
 ];
 
-  /* ---------- armazenamento local ---------- */
   function ler(chave) {
     try {
       var v = JSON.parse(localStorage.getItem(chave));
@@ -161,10 +156,9 @@
     }
   }
   function gravar(chave, valor) {
-    try { localStorage.setItem(chave, JSON.stringify(valor)); } catch (e) { /* navegador bloqueou */ }
+    try { localStorage.setItem(chave, JSON.stringify(valor)); } catch (e) { }
   }
 
-  /* ---------- favoritos ---------- */
   function ehFavorito(id) { return ler(CHAVE_FAVORITOS).indexOf(id) !== -1; }
 
   function alternarFavorito(id) {
@@ -237,7 +231,6 @@
     if (document.getElementById('favoritos-grid')) { montarFavoritos(); } else { atualizarFavoritos(); }
   });
 
-  /* ---------- busca: filtros e ordenação ---------- */
   function normalizar(t) {
     return String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
   }
@@ -303,7 +296,6 @@
     aplicar();
   }
 
-  /* ---------- formulários: validação, máscara e confirmação ---------- */
   function mensagemDeErro(campo) {
     var v = campo.validity;
     if (v.valueMissing) {
@@ -403,7 +395,6 @@
     });
   }
 
-  /* ---------- menu do celular ---------- */
   function iniciarMenu() {
     var caixa = document.getElementById('menu-check');
     if (!caixa) { return; }
@@ -413,7 +404,6 @@
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { caixa.checked = false; } });
   }
 
-  /* ---------- início ---------- */
   document.addEventListener('DOMContentLoaded', function () {
     iniciarMenu();
     iniciarBusca();
